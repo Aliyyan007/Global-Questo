@@ -27,7 +27,7 @@ struct Config {
 impl Default for Config {
     fn default() -> Self {
         Config {
-            title: "Discord Quest Completer (runner)".to_string(),
+            title: "Global Questo (runner)".to_string(),
             start_minimized: false,
         }
     }
@@ -88,7 +88,7 @@ fn create_window(title: &str) -> Option<HWND> {
     unsafe {
         let hinstance = GetModuleHandleA(None).ok()?;
         
-        let class_name = CString::new("DiscordQuestCompleter").ok()?;
+        let class_name = CString::new("GlobalQuesto").ok()?;
         let window_title = CString::new(title).ok()?;
         
         let wc = WNDCLASSEXA {

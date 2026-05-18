@@ -18,7 +18,7 @@ const WIDTH: i32 = 400;
 const HEIGHT: i32 = 400;
 const LINK_BUTTON_ID: i32 = 1001;
 
-const CLASS_NAME: &str = "DiscordQuestCompleter\0";
+const CLASS_NAME: &str = "GlobalQuesto\0";
 const STATIC_CLASS: &str = "STATIC\0";
 const BUTTON_CLASS: &str = "BUTTON\0";
 

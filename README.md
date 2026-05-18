@@ -1,12 +1,12 @@
 <p>
-  <h1 align="center">Discord Quest Completer</h1>
+  <h1 align="center">Global Questo</h1>
 </p>
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/markterence/discord-quest-completer/build-release.yaml?branch=main&style=flat&label=build%20(release))
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/markterence/discord-quest-completer/rust-check.yml?branch=main&style=flat&label=scheduled%20build%20%28every%202%20days%29)](https://github.com/markterence/discord-quest-completer/actions/workflows/rust-check.yml?query=branch%3Amain+event%3Aschedule)
 
 
-> A quest completer for Discord. Discord Quest Completer. I don't know what to call this, but there it is.
+> A quest completer for Discord. Global Questo. I don't know what to call this, but there it is.
 
 A Windows desktop application for Discord Rich Presence and completing Discord Quest for games without needing to install the full actual games/applications. Perfect for completing Discord Quests and showing off your gaming status without the storage burden.
 
@@ -49,8 +49,8 @@ To uninstall the app, simply go to the folder where you extracted or placed the 
 The content of the folder may look like this:
 
 ```text
-discord-quest-completer/
-├── discord-quest-completer.exe (main app)
+global-questo/
+├── global-questo.exe (main app)
 ├── data/ 
 │   ├── src-win.exe (runner dummy template)
 ├── games/

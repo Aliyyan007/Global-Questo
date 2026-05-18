@@ -30,7 +30,7 @@ struct Config {
 impl Default for Config {
     fn default() -> Self {
         Config {
-            title: "Discord Quest Completer".to_string(),
+            title: "Global Questo".to_string(),
             start_minimized: false,
         }
     }
@@ -213,7 +213,7 @@ unsafe extern "system" fn window_proc(
 fn create_native_window(title: &str) -> Result<(HWND, HINSTANCE), Box<dyn std::error::Error>> {
     unsafe {
         let instance = GetModuleHandleA(None)?;
-        let class_name = CString::new("DiscordQuestCompleter")?;
+        let class_name = CString::new("GlobalQuesto")?;
         let window_title = CString::new(title)?;
 
         // Create a white background brush
@@ -286,9 +286,9 @@ fn main() {
             20,  // height
     );
 
-    let _app_label_hwnd = create_label(hwnd, "Discord Quest Completer", instance, 10, 10, None, 20);
+    let _app_label_hwnd = create_label(hwnd, "Global Questo", instance, 10, 10, None, 20);
     
-        let _app_label_hwnd = create_label(hwnd, "This program is part of the Discord Quest Completer", instance, 10, 60, None, 20);
+        let _app_label_hwnd = create_label(hwnd, "This program is part of the Global Questo", instance, 10, 60, None, 20);
     
 
     // Create a link label anchored to the bottom-left

@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Discord Quest Completer",
+  "productName": "Global Questo",
   "version": "25.4.18",
-  "identifier": "me.markterence.discordquestcompleter",
+  "identifier": "com.aliyyan.globalquesto",
   "build": {
     "beforeDevCommand": "pnpm dev",
     "devUrl": "http://localhost:1420",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "Discord Quest Completer",
+        "title": "Global Questo",
         "width": 800,
         "height": 600
       }
