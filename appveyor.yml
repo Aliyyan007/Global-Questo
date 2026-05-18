@@ -1,0 +1,51 @@
+version: '{build}'
+
+image: Visual Studio 2022
+
+environment:
+  matrix:
+    - TARGET: x86_64-pc-windows-msvc
+      RUST_VERSION: stable
+
+install:
+  # Install Rust
+  - curl -sSf -o rustup-init.exe https://win.rustup.rs
+  - rustup-init.exe -y --default-toolchain %RUST_VERSION% --default-host %TARGET%
+  - set PATH=%USERPROFILE%\.cargo\bin;%PATH%
+  - rustc -V
+  - cargo -V
+  
+  # Install Node.js and pnpm
+  - ps: Install-Product node 20 x64
+  - npm install -g pnpm
+  - pnpm --version
+
+build_script:
+  # Install dependencies
+  - pnpm install
+  
+  # Build the Windows runner
+  - pnpm build:runner:win
+  
+  # Copy runner to resources
+  - pnpm copy:runner:win
+  
+  # Build the Tauri app
+  - pnpm tauri build
+
+artifacts:
+  - path: 'src-tauri\target\release\*.exe'
+    name: executable
+  - path: 'src-tauri\target\release\bundle\**\*'
+    name: bundle
+
+deploy:
+  provider: GitHub
+  auth_token:
+    secure: YOUR_ENCRYPTED_GITHUB_TOKEN_HERE
+  artifact: /.*\.exe/
+  draft: false
+  prerelease: false
+  on:
+    branch: main
+    APPVEYOR_REPO_TAG: true
