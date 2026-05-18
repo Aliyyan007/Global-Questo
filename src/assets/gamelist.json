@@ -1,1 +1,976 @@
-[]
+[
+  {
+    "id": "fortnite",
+    "name": "Fortnite",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "FortniteClient-Win64-Shipping.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Fortnite Battle Royale"],
+    "themes": ["battle-royale", "shooter"]
+  },
+  {
+    "id": "minecraft",
+    "name": "Minecraft",
+    "executables": [
+      {
+        "is_launcher": true,
+        "name": "Minecraft.exe",
+        "os": "win32"
+      },
+      {
+        "is_launcher": false,
+        "name": "javaw.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Minecraft Java Edition"],
+    "themes": ["sandbox", "survival"]
+  },
+  {
+    "id": "league-of-legends",
+    "name": "League of Legends",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "League of Legends.exe",
+        "os": "win32"
+      },
+      {
+        "is_launcher": true,
+        "name": "LeagueClient.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["LoL"],
+    "themes": ["moba", "strategy"]
+  },
+  {
+    "id": "valorant",
+    "name": "VALORANT",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "VALORANT-Win64-Shipping.exe",
+        "os": "win32"
+      },
+      {
+        "is_launcher": false,
+        "name": "VALORANT.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Valorant"],
+    "themes": ["fps", "tactical-shooter"]
+  },
+  {
+    "id": "roblox",
+    "name": "Roblox",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "RobloxPlayerBeta.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Roblox Player"],
+    "themes": ["sandbox", "multiplayer"]
+  },
+  {
+    "id": "genshin-impact",
+    "name": "Genshin Impact",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "GenshinImpact.exe",
+        "os": "win32"
+      },
+      {
+        "is_launcher": false,
+        "name": "YuanShen.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["原神"],
+    "themes": ["rpg", "open-world"]
+  },
+  {
+    "id": "apex-legends",
+    "name": "Apex Legends",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "r5apex.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Apex"],
+    "themes": ["battle-royale", "fps"]
+  },
+  {
+    "id": "counter-strike-2",
+    "name": "Counter-Strike 2",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "cs2.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["CS2"],
+    "themes": ["fps", "competitive"]
+  },
+  {
+    "id": "dota-2",
+    "name": "Dota 2",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "dota2.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["DOTA 2"],
+    "themes": ["moba", "strategy"]
+  },
+  {
+    "id": "overwatch-2",
+    "name": "Overwatch 2",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Overwatch.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["OW2"],
+    "themes": ["fps", "hero-shooter"]
+  },
+  {
+    "id": "rocket-league",
+    "name": "Rocket League",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "RocketLeague.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["RL"],
+    "themes": ["sports", "racing"]
+  },
+  {
+    "id": "grand-theft-auto-v",
+    "name": "Grand Theft Auto V",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "GTA5.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["GTA V", "GTA 5"],
+    "themes": ["action", "open-world"]
+  },
+  {
+    "id": "call-of-duty-warzone",
+    "name": "Call of Duty: Warzone",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "cod.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Warzone", "COD Warzone"],
+    "themes": ["battle-royale", "fps"]
+  },
+  {
+    "id": "destiny-2",
+    "name": "Destiny 2",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "destiny2.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["D2"],
+    "themes": ["fps", "mmo"]
+  },
+  {
+    "id": "rainbow-six-siege",
+    "name": "Rainbow Six Siege",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "RainbowSix.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["R6", "Siege"],
+    "themes": ["fps", "tactical-shooter"]
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Rust.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["survival", "multiplayer"]
+  },
+  {
+    "id": "terraria",
+    "name": "Terraria",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Terraria.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["sandbox", "adventure"]
+  },
+  {
+    "id": "stardew-valley",
+    "name": "Stardew Valley",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Stardew Valley.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["farming", "simulation"]
+  },
+  {
+    "id": "among-us",
+    "name": "Among Us",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Among Us.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["social-deduction", "multiplayer"]
+  },
+  {
+    "id": "fall-guys",
+    "name": "Fall Guys",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "FallGuys_client.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["party", "battle-royale"]
+  },
+  {
+    "id": "dead-by-daylight",
+    "name": "Dead by Daylight",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "DeadByDaylight-Win64-Shipping.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["DBD"],
+    "themes": ["horror", "multiplayer"]
+  },
+  {
+    "id": "phasmophobia",
+    "name": "Phasmophobia",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Phasmophobia.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["horror", "co-op"]
+  },
+  {
+    "id": "the-sims-4",
+    "name": "The Sims 4",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "TS4_x64.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Sims 4"],
+    "themes": ["simulation", "life-sim"]
+  },
+  {
+    "id": "elden-ring",
+    "name": "ELDEN RING",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "eldenring.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Elden Ring"],
+    "themes": ["rpg", "souls-like"]
+  },
+  {
+    "id": "dark-souls-3",
+    "name": "Dark Souls III",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "DarkSoulsIII.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["DS3", "Dark Souls 3"],
+    "themes": ["rpg", "souls-like"]
+  },
+  {
+    "id": "cyberpunk-2077",
+    "name": "Cyberpunk 2077",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Cyberpunk2077.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["rpg", "open-world"]
+  },
+  {
+    "id": "red-dead-redemption-2",
+    "name": "Red Dead Redemption 2",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "RDR2.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["RDR2"],
+    "themes": ["action", "open-world"]
+  },
+  {
+    "id": "the-witcher-3",
+    "name": "The Witcher 3: Wild Hunt",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "witcher3.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Witcher 3"],
+    "themes": ["rpg", "open-world"]
+  },
+  {
+    "id": "skyrim",
+    "name": "The Elder Scrolls V: Skyrim",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "SkyrimSE.exe",
+        "os": "win32"
+      },
+      {
+        "is_launcher": false,
+        "name": "TESV.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Skyrim Special Edition"],
+    "themes": ["rpg", "open-world"]
+  },
+  {
+    "id": "fallout-4",
+    "name": "Fallout 4",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Fallout4.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["rpg", "open-world"]
+  },
+  {
+    "id": "warframe",
+    "name": "Warframe",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Warframe.x64.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["action", "mmo"]
+  },
+  {
+    "id": "path-of-exile",
+    "name": "Path of Exile",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "PathOfExile_x64.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["PoE"],
+    "themes": ["arpg", "mmo"]
+  },
+  {
+    "id": "diablo-iv",
+    "name": "Diablo IV",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Diablo IV.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Diablo 4"],
+    "themes": ["arpg", "dungeon-crawler"]
+  },
+  {
+    "id": "world-of-warcraft",
+    "name": "World of Warcraft",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Wow.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["WoW"],
+    "themes": ["mmorpg", "fantasy"]
+  },
+  {
+    "id": "final-fantasy-xiv",
+    "name": "FINAL FANTASY XIV",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "ffxiv_dx11.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["FFXIV", "FF14"],
+    "themes": ["mmorpg", "fantasy"]
+  },
+  {
+    "id": "lost-ark",
+    "name": "Lost Ark",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "LOSTARK.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["mmorpg", "arpg"]
+  },
+  {
+    "id": "black-desert",
+    "name": "Black Desert Online",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "BlackDesert64.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["BDO"],
+    "themes": ["mmorpg", "sandbox"]
+  },
+  {
+    "id": "escape-from-tarkov",
+    "name": "Escape from Tarkov",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "EscapeFromTarkov.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["EFT", "Tarkov"],
+    "themes": ["fps", "survival"]
+  },
+  {
+    "id": "pubg",
+    "name": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "TslGame.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["PUBG"],
+    "themes": ["battle-royale", "fps"]
+  },
+  {
+    "id": "paladins",
+    "name": "Paladins",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Paladins.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["fps", "hero-shooter"]
+  },
+  {
+    "id": "smite",
+    "name": "SMITE",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Smite.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["moba", "mythology"]
+  },
+  {
+    "id": "team-fortress-2",
+    "name": "Team Fortress 2",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "hl2.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["TF2"],
+    "themes": ["fps", "class-based"]
+  },
+  {
+    "id": "left-4-dead-2",
+    "name": "Left 4 Dead 2",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "left4dead2.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["L4D2"],
+    "themes": ["fps", "co-op", "zombie"]
+  },
+  {
+    "id": "portal-2",
+    "name": "Portal 2",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "portal2.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["puzzle", "platformer"]
+  },
+  {
+    "id": "half-life-alyx",
+    "name": "Half-Life: Alyx",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "hlvr.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["HL Alyx"],
+    "themes": ["fps", "vr"]
+  },
+  {
+    "id": "beat-saber",
+    "name": "Beat Saber",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Beat Saber.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["rhythm", "vr"]
+  },
+  {
+    "id": "vrchat",
+    "name": "VRChat",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "VRChat.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["social", "vr"]
+  },
+  {
+    "id": "sea-of-thieves",
+    "name": "Sea of Thieves",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "SoTGame.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["SoT"],
+    "themes": ["adventure", "pirate"]
+  },
+  {
+    "id": "no-mans-sky",
+    "name": "No Man's Sky",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "NMS.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["NMS"],
+    "themes": ["exploration", "space"]
+  },
+  {
+    "id": "satisfactory",
+    "name": "Satisfactory",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "FactoryGame-Win64-Shipping.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["factory", "building"]
+  },
+  {
+    "id": "factorio",
+    "name": "Factorio",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "factorio.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["factory", "strategy"]
+  },
+  {
+    "id": "rimworld",
+    "name": "RimWorld",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "RimWorldWin64.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["colony-sim", "strategy"]
+  },
+  {
+    "id": "cities-skylines",
+    "name": "Cities: Skylines",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Cities.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["city-builder", "simulation"]
+  },
+  {
+    "id": "civilization-vi",
+    "name": "Sid Meier's Civilization VI",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "CivilizationVI.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Civ 6", "Civ VI"],
+    "themes": ["strategy", "turn-based"]
+  },
+  {
+    "id": "total-war-warhammer-3",
+    "name": "Total War: WARHAMMER III",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Warhammer3.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["TW Warhammer 3"],
+    "themes": ["strategy", "fantasy"]
+  },
+  {
+    "id": "age-of-empires-iv",
+    "name": "Age of Empires IV",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "RelicCardinal.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["AoE 4", "AoE IV"],
+    "themes": ["rts", "strategy"]
+  },
+  {
+    "id": "starcraft-2",
+    "name": "StarCraft II",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "SC2_x64.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["SC2"],
+    "themes": ["rts", "strategy"]
+  },
+  {
+    "id": "hearthstone",
+    "name": "Hearthstone",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Hearthstone.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["card-game", "strategy"]
+  },
+  {
+    "id": "magic-the-gathering-arena",
+    "name": "Magic: The Gathering Arena",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "MTGA.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["MTG Arena", "MTGA"],
+    "themes": ["card-game", "strategy"]
+  },
+  {
+    "id": "yu-gi-oh-master-duel",
+    "name": "Yu-Gi-Oh! Master Duel",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "masterduel.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Master Duel"],
+    "themes": ["card-game", "strategy"]
+  },
+  {
+    "id": "osu",
+    "name": "osu!",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "osu!.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["rhythm", "music"]
+  },
+  {
+    "id": "geometry-dash",
+    "name": "Geometry Dash",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "GeometryDash.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["platformer", "rhythm"]
+  },
+  {
+    "id": "hollow-knight",
+    "name": "Hollow Knight",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "hollow_knight.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["metroidvania", "platformer"]
+  },
+  {
+    "id": "celeste",
+    "name": "Celeste",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Celeste.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["platformer", "indie"]
+  },
+  {
+    "id": "hades",
+    "name": "Hades",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Hades.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["roguelike", "action"]
+  },
+  {
+    "id": "binding-of-isaac",
+    "name": "The Binding of Isaac: Rebirth",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "isaac-ng.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["Isaac", "BoI"],
+    "themes": ["roguelike", "indie"]
+  },
+  {
+    "id": "dont-starve-together",
+    "name": "Don't Starve Together",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "dontstarve_steam_x64.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["DST"],
+    "themes": ["survival", "co-op"]
+  },
+  {
+    "id": "valheim",
+    "name": "Valheim",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "valheim.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["survival", "viking"]
+  },
+  {
+    "id": "7-days-to-die",
+    "name": "7 Days to Die",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "7DaysToDie.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["7DTD"],
+    "themes": ["survival", "zombie"]
+  },
+  {
+    "id": "ark-survival-evolved",
+    "name": "ARK: Survival Evolved",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "ShooterGame.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": ["ARK"],
+    "themes": ["survival", "dinosaur"]
+  },
+  {
+    "id": "subnautica",
+    "name": "Subnautica",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "Subnautica.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["survival", "underwater"]
+  },
+  {
+    "id": "the-forest",
+    "name": "The Forest",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "TheForest.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["survival", "horror"]
+  },
+  {
+    "id": "sons-of-the-forest",
+    "name": "Sons Of The Forest",
+    "executables": [
+      {
+        "is_launcher": false,
+        "name": "SonsOfTheForest.exe",
+        "os": "win32"
+      }
+    ],
+    "aliases": [],
+    "themes": ["survival", "horror"]
+  }
+]
