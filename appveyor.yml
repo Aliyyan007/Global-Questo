@@ -30,8 +30,8 @@ build_script:
   # Copy runner to resources
   - pnpm copy:runner:win
   
-  # Build the Tauri app (unset CI variable to avoid case-sensitivity issue)
-  - cmd: set CI=
+  # Build the Tauri app (set CI to lowercase to avoid case-sensitivity issue)
+  - ps: $env:CI = "false"
   - pnpm tauri build
 
 artifacts:
